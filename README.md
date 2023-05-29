@@ -11,7 +11,7 @@ service apache2 restart
 
 <hr>
 
-## Teste para verificar funcionamento da dependência
+## Teste para verificar o funcionamento da dependência
 ```
 <?php
     phpinfo();
