@@ -5,7 +5,7 @@ Consumo de webservice SOAP. Execução via linha de comando
 
 ## Dependência
 ```
-sudo apt-get install php-soap
+sudo apt-get install php7.2-soap
 service apache2 restart
 ```
 
@@ -16,12 +16,12 @@ service apache2 restart
 <?php
     phpinfo();
 ```
-get soap Soap Client => enabled 
-Soap Server => enabled 
-soap.wsdl_cache => 1 => 1 
-soap.wsdl_cache_dir => /tmp => /tmp 
-soap.wsdl_cache_enabled => 1 => 1 
-soap.wsdl_cache_limit => 5 => 5 
+get soap Soap Client => enabled<br> 
+Soap Server => enabled<br>
+soap.wsdl_cache => 1 => 1<br> 
+soap.wsdl_cache_dir => /tmp => /tmp<br>
+soap.wsdl_cache_enabled => 1 => 1<br>
+soap.wsdl_cache_limit => 5 => 5<br>
 soap.wsdl_cache_ttl => 86400 => 86400
 
 <hr>
@@ -35,7 +35,7 @@ var_dump($client->__getFunctions());
 
 <hr>
 
-## Json & Array de XML em 3 linhas:
+## Json & Array de XML em 3 linhas
 ```
 $xml = simplexml_load_string($xml_string);
 $json = json_encode($xml);
@@ -44,7 +44,7 @@ $array = json_decode($json,TRUE);
 
 <hr>
 
-## Exibe informção sobre uma variável de forma legível
+## Exibe informação sobre uma variável de forma legível
 ```
 print_r($result);
 ```
