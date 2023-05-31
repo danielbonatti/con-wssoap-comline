@@ -1,4 +1,4 @@
-# consWebServSOAP_comLine
+# con-wssoap-comline
 Consumo de webservice SOAP. Execução via linha de comando
 
 <hr>
