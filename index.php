@@ -1,9 +1,8 @@
 <?php
 
-$json = json_decode($argv[1], true);
-$sUrl = $json['url']; // Link
-$sXml = $json['xml']; // Arquivo xml em formato texto
-$sMet = $json['met']; // Método a ser envocado
+$sUrl = $argv[1]; // Link
+$sXml = $argv[2]; // Arquivo xml em formato texto
+$sMet = $argv[3]; // Método a ser envocado
 
 $client = new SoapClient($sUrl);
 
